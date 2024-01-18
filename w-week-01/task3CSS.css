@@ -1,0 +1,27 @@
+html, body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: 100vh;
+    width: 50%;
+}
+
+.container header h1 {
+    text-align: center;
+}
+
+
+
+.details, .bodyContent {
+    display: flex;
+    align-items: baseline;
+}

@@ -1,0 +1,15 @@
+.contact {
+    display: block;
+    margin: 0 auto; 
+    max-width: 30vmax;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea, button {
+    margin-bottom: 10px;
+    padding: 8px;
+}
