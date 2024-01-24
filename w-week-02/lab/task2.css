@@ -1,0 +1,75 @@
+body{
+    background-color: rgb(247, 157, 172);
+}
+
+.container{
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.box{
+
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.intro{
+    display: flex;
+    display: block;
+    justify-content: center;   
+    margin-top: 5rem;
+}
+.center{
+    display: flex;
+    justify-content: center;
+}
+
+.media-icons{
+    display: flex;
+    width: 2rem;
+    height: 2rem;
+    margin-left: 10rem;
+}
+
+.about-me{
+  
+    height: 20rem;
+    width: 50rem;
+    margin-left: 22rem;
+    background-color: white;
+}
+
+.projects{
+    margin-top: 2rem;
+    height: 20rem;
+    width: 50rem;
+    margin-left: 22rem;
+    background-color: white;
+
+}
+.customSize{
+    width: 12rem; 
+    height: 12rem;
+}
+
+.contact-us{
+    margin-top: 2rem;
+    margin-left: 22rem;
+    height: 30rem;
+    width: 50rem;
+    background-color: white;
+}
+
+.contact-us{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact-us form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
