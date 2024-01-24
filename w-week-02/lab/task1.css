@@ -1,0 +1,15 @@
+.columns{
+    display: flex;
+}
+
+.pictures{
+    width: 20rem;
+    height: 18rem;
+}
+
+.price{
+    display: flex;
+    justify-content: center;
+    color: red;
+}
+

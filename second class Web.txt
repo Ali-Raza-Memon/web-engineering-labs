@@ -1,0 +1,30 @@
+href with the help of anchor tag
+src images and files
+width and height
+alt 
+title
+style 
+
+input disable
+
+-) external css is used to reusablility
+	we do not have to write again and again same code this thing provides the 	reusability
+
+-) types of css
+	inline
+	internal-css
+	external-css
+
+-) Ok but what is priority?
+	inline is 1
+	internal is 2
+	external is 3
+
+-) Ok but when comes to the id and class then which we have the high priority?
+	the first high priority is id
+	and then class 
+
+-)  margin box
+	sequence wise
+		top right bottom left
+-) padding: 20px, 
