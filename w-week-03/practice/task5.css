@@ -1,0 +1,15 @@
+.first{
+    font-family: 'Roboto', sans-serif;
+}
+.myIcons *{
+    height: 50px;
+    width: 50px;
+}
+
+.fixed_area{
+    height: 100px;
+    width: 100px;
+    overflow: hidden;
+    overflow-x: scroll;
+    overflow-y: scroll;
+}

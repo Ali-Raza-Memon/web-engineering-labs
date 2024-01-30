@@ -1,0 +1,20 @@
+.circle{
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    border-radius: 50%;
+    background-color: burlywood;
+  
+}
+
+.container{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.circle:nth-child(13) {
+    background-color: red;
+}

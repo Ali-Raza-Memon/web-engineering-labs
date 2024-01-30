@@ -1,0 +1,12 @@
+.btn{
+    background-color: blue;
+    padding: 5px;
+}
+
+.btn:hover{
+    background-color: blueviolet;
+    cursor: pointer;
+}
+.btn:focus{
+    background-color: yellowgreen;
+}
