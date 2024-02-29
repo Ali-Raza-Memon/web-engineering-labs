@@ -11,8 +11,8 @@ function reverseArray(arr){
 }
 
 
-console.log(reverseArray([1,2,3]));
 
+console.log(reverseArray([1,2,3]));
 
 // Task-02
 
