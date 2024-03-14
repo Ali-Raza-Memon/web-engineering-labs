@@ -10,7 +10,6 @@ function reverseArray(arr){
     return reversedArray;
 }
 
-
 console.log(reverseArray([1,2,3]));
 
 // Task-02
