@@ -1,0 +1,19 @@
+
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+/* .form{
+    padding: 90px;
+} */
+
+.box{
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
