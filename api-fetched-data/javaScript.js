@@ -20,15 +20,3 @@ function displayTodoList(todos) {
 }
 
 
-function displayTodoList(todos){
-    const todoListContainer = document.getElementById("todo-list");
-    
-    todos.forEach(todo=>{
-        const todoItem = document.createElement("div");
-        todoItem.classList.add("todo-list");
-        todoItem.innerHTML =`
-        <input type="checkbox" ${todo.completed ? 'checked' : ''} >
-        
-        `
-    })
-}

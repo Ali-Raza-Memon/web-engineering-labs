@@ -24,15 +24,11 @@ let car = {
 
 //car info function
 function carInfo(carObj){
-    
     // taking car object value
     const {brand,model,year} = carObj;
-    
     //now changing it to the literal string
     const carInfomation = `The ${brand} ${model} was manufactured in ${year}.`;
-    
     return carInfomation;
-    
 }
 
 console.log(carInfo(car))
@@ -46,7 +42,7 @@ function applyFunction(arr,func){
 }
 
 
-let multiplyByTwo= x => x*2;
+let multiplyByTwo = x => x*2;
 let numbers = [1,2,3];
 
 console.log(applyFunction(numbers,multiplyByTwo))
