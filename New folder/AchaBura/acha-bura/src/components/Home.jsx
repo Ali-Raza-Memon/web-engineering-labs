@@ -14,10 +14,10 @@ const Home = () => {
     };
 
     const handleSave = () => {
-        // Here you can implement the logic to save the name with its category
+        
         const newData = { name, category };
         setSavedData([...savedData, newData]);
-        // Reset the input fields after saving
+    
         setName("");
         setCategory("");
     };
@@ -41,7 +41,7 @@ const Home = () => {
                     Save
                 </button>
             </div>
-            {/* Display saved data */}
+           
             <div>
                 <h2>Saved Data</h2>
                 <ul>
